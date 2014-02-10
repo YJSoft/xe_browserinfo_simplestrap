@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+	<title xml:lang="ko">Simplestrap용 스킨</title>
+	<description xml:lang="ko">Simplestrap용 스킨입니다.</description>
+	<version>0.1</version>
+	<date>2013-12-25</date>
+	<author email_address="yjsoft@yjsoft.pe.kr" link="http://yjsoft.pe.kr">
+		<name xml:lang="ko">YJSoft</name>
+	</author>
+	<colorset>
+		<color name="default">
+			<title xml:lang="ko">기본</title>
+		</color>
+	</colorset>
+</skin>

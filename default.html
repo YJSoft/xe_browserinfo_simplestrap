@@ -1,0 +1,25 @@
+<!--// js로드-->
+<load target="./js/default.js" />
+
+<!--// 컬러셋 로드-->
+<!--@if($colorset=="default")--> 
+	<load target="./css/default.css" />
+<!--@end-->
+
+
+<!--//브라우저 출력공간-->
+<div class="browser_widget_wrap"></div>
+
+
+
+<script type="text/javascript">
+var browser_comment1 = '{$widget_info->browser_comment1}\n'; 
+var browser_comment2 = '\n{$widget_info->browser_comment2}'; 
+</script>
+
+
+<!--@if($widget_info->font_color)-->
+<style type="text/css">
+.browser_widget_wrap a{color:{$widget_info->font_color};}
+</style>
+<!--@end-->
